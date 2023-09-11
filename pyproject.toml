@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "npzcompare"
+version = "0.1.0"
+description = ""
+authors = ["Benjamin Hackl <devel@benjamin-hackl.at>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+matplotlib = "^3.7.2"
+Flask = "^2.3.3"
+pygithub = "^1.59.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
